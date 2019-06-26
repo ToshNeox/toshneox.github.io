@@ -16,13 +16,69 @@
 </head>
 <body>
     <div id="container">
-        <header>
+        <header class="needsReview">
             <h1>Joshua Wilkinson</h1>
             <h2>I make things</h2>
         </header>
 
         <article>
-            <section></section>
+            <section>
+                <p>Hi, I'm Josh! I build stuff for the web and I love doing it.</p>
+                <p>I'm currently an undergraduate computer science student in the UK.</p>
+            </section>
+        </article>
+
+        <article>
+            <h1>My experience</h1>
+            
+            <section>
+                <p>I have the most experience with these technologies, and I prefer to work with them day-to-day:</p>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Angular(JS)</li>
+                    <li>TypeScript</li>
+                    <li>Git</li>
+                    <li>MySQL</li>
+                    <li>Unix</li>
+                    <li>VMWare ESXi</li>
+                    <li>VirtualBox</li>
+                </ul>
+            </section>
+            
+            <section>
+                <p>I have some experience with these technologies:</p>
+                <ul>
+                    <li>PHP</li>
+                    <li>Redis</li>
+                </ul>
+            </section>
+        </article>
+
+        <article>
+            <h1>Get in touch</h1>
+            <section>
+                <p>I'd love to discuss any ideas you'd like to bring to life, or any projects I might be useful for!</p>
+                
+                <form id="contactForm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE"
+                    method="post">
+                    <fieldset>
+                        <label for="full-name">Your Name:</label>
+                        <input type="text" name="name" id="full-name" placeholder="John Smith" required="">
+
+                        <label for="email-address">Email Address:</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+
+                        <label for="message">Your Message:</label>
+                        <textarea rows="5" name="message" id="message"
+                            placeholder="What's on your mind?"
+                            required=""></textarea>
+
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
         </article>
     </div>
 </body>
