@@ -52,6 +52,31 @@ body {
 #container article section p {
     padding: 10px 0;
 }
+#container article section ul.iconList {
+    padding-bottom: 10px;
+}
+#container article section ul.iconList li {
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    vertical-align: top;
+}
+#container article section ul.iconList li::before {
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: '';
+    background-image: url(https://place-hold.it/60x60);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 10px auto;
+}
+#container article section ul.iconList li a {
+    color: var(--primary-colour);
+    text-decoration: none;
+}
 
 /* Contact form */
 #contactForm {
