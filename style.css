@@ -77,6 +77,23 @@ body {
     color: var(--primary-colour);
     text-decoration: none;
 }
+#container article section.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+#container article section.projects p {
+    width: 100%;
+}
+#container article section.projects article.project {
+    margin: 0;
+    flex: 0 1 auto;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#container article section.projects article.project h1 {
+    font-size: 1.2rem;
+}
 
 /* Contact form */
 #contactForm {
