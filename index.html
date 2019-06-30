@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 
     <!-- Fonts -->
@@ -14,46 +16,18 @@
 
     <title>Joshua Wilkinson</title>
 </head>
-<body>
-    <div id="container">
-        <header class="needsReview">
-            <h1>Joshua Wilkinson</h1>
-            <h2>I make things</h2>
-        </header>
 
+<body>
+    <header class="needsReview">
+        <h1>Joshua Wilkinson</h1>
+        <h2>I make things</h2>
+    </header>
+
+    <main>
         <article>
             <section>
                 <p>Hi, I'm Josh! I build stuff for the web and I love doing it.</p>
                 <p>I'm currently an undergraduate computer science student in the UK.</p>
-            </section>
-        </article>
-
-        <article>
-            <h1>My experience</h1>
-            
-            <section>
-                <p>I have the most experience with these technologies, and I prefer to work with them day-to-day:</p>
-                <ul class="iconList">
-                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" title="HTML5">HTML5</a></li>
-                    <li><a href="" title="CSS3">CSS3</a></li>
-                    <li><a href="" title="Node.js">Node.js</a></li>
-                    <li><a href="" title="Angular">Angular</a></li>
-                    <li><a href="" title="TypeScript">TypeScript</a></li>
-                    <li><a href="" title="Git">Git</a></li>
-                    <li><a href="" title="MySQL">MySQL</a></li>
-                    <li><a href="" title="Unix">Unix</a></li>
-                    <li><a href="" title="VMWare ESXi">VMWare ESXi</a></li>
-                    <li><a href="" title="VirtualBox">VirtualBox</a></li>
-                </ul>
-            </section>
-            
-            <section>
-                <p>I have some experience with these technologies:</p>
-                <ul class="iconList">
-                    <li><a href="" title="AngularJS">AngularJS</a></li>
-                    <li><a href="" title="PHP">PHP</a></li>
-                    <li><a href="" title="Redis">Redis</a></li>
-                </ul>
             </section>
         </article>
 
@@ -63,24 +37,98 @@
             <section>
                 <p>Here is a showcase of some of my work:</p>
 
-                <section class="projects">
-                    <!-- Projects -->
-                    <article class="project">
-                        <h1>Remind</h1>
+                <!-- Projects -->
+                <article class="project">
+                    <aside class="image">
+                        <img src="https://place-hold.it/120x120">
+                    </aside>
 
-                        <p>Remind is a project.</p>
-                    </article>
-                    <article class="project">
-                        <h1>Web Toolbox</h1>
+                    <h1><a href="https://www.remind-app.co.uk/">Remind</a></h1>
 
-                        <p>Web Toolbox is a project.</p>
-                    </article>
-                    <article class="project">
-                        <h1>Personal Site</h1>
+                    <p>Remind is an assistive technology for carers and patients of memory-loss conditions. The system
+                        allows carers to
+                        remotely send messages and reminders to their patients via tablets installed in the patients'
+                        home.</p>
+                    <p>To reduce data usage the system makes use of <a href="https://mqtt.org/">MQTT</a>, a protocol for
+                        device-to-device communication with minimum overhead.</p>
+                    <p>The project won <a href="https://www.tmt-magazine.com/2016-blueberry-consultants-ltd">TMT
+                            Magazine's <i>Best
+                                Assistive Technology App 2016</i> award</a>.</p>
+                </article>
+                <article class="project">
+                    <aside class="image">
+                        <img src="https://place-hold.it/120x120">
+                    </aside>
 
-                        <p>Personal Website is a project.</p>
-                    </article>
-                </section>
+                    <h1><a href="">Web Toolbox</a></h1>
+
+                    <p>Some years ago the very handy website <i>thetoolbox.cc</i> went offline. It provided an amazing
+                        collection of
+                        free-to-use tools for developers.</p>
+                    <p>Occasionally I come across free tools that I'd love to tell others about, but have nowhere to do
+                        this. It seemed
+                        like a great idea to reboot this website and get free tools to developers once again.</p>
+                </article>
+                <article class="project">
+                    <aside class="image">
+                        <img src="https://place-hold.it/120x120">
+                    </aside>
+
+                    <h1><a href="https://toshneox.github.io/">Personal Site</a></h1>
+
+                    <p>This exact website! I built it to show off my personal projects and gain some experience using
+                        GitHub Pages.</p>
+                    <p>The site is stored in a GitHub repository, hosted using GitHub Pages, and delivered by
+                        CloudFlare.</p>
+                    <p>I paid extra attention to the size of the site by ensuring only necessary external resources were
+                        included (in
+                        this case, only fonts from Google Fonts.) <a href="easeofuse.html"
+                            tite="Ease of Use and Accessibility">Ease of use and
+                            accessibility</a> were also
+                        important parts of the design.</p>
+                </article>
+            </section>
+        </article>
+
+        <article>
+            <h1>My experience</h1>
+
+            <section>
+                <p>I have the most experience with these technologies, and I like to work with them day-to-day:</p>
+                <ul class="iconList">
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" title="HTML5">HTML5</a>
+                    </li>
+                    <li><a href="" title="CSS3">CSS3</a></li>
+                    <li><a href="" title="Node.js">Node.js</a></li>
+                    <li><a href="" title="Angular">Angular</a></li>
+                    <li><a href="" title="Vue">Vue</a></li>
+                    <li><a href="" title="TypeScript">TypeScript</a></li>
+                    <li><a href="" title="Git">Git</a></li>
+                    <li><a href="" title="MySQL">MySQL</a></li>
+                    <li><a href="" title="Unix">Unix</a></li>
+                    <li><a href="" title="VirtualBox">VirtualBox</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <p>I have some experience with these technologies:</p>
+                <ul class="iconList">
+                    <li><a href="" title="AngularJS">AngularJS</a></li>
+                    <li><a href="" title="PHP">PHP</a></li>
+                    <li><a href="" title="Redis">Redis</a></li>
+                    <li><a href="" title="VMWare ESXi">VMWare ESXi</a></li>
+                    <li><a href="" title="MQTT">MQTT</a></li>
+                    <li><a href="" title="Jekyll">Jekyll</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <p>I'd like to get more experience with these technologies:</p>
+                <ul class="iconList">
+                    <li><a href="" title="AWS">AWS</a></li>
+                    <li><a href="" title="GCP">GCP</a></li>
+                    <li><a href="" title="GraphQL">GraphQL</a></li>
+                </ul>
             </section>
         </article>
 
@@ -88,19 +136,19 @@
             <h1>Get in touch</h1>
             <section>
                 <p>I'd love to discuss any ideas you'd like to bring to life, or any projects I might be useful for!</p>
-                
-                <form id="contactForm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE"
-                    method="post">
+
+                <form id="contactForm" name="contact-form" accept-charset="utf-8"
+                    action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
                     <fieldset>
                         <label for="full-name">Your Name:</label>
                         <input type="text" name="name" id="full-name" placeholder="John Smith" required="">
 
                         <label for="email-address">Email Address:</label>
-                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
+                            required="">
 
                         <label for="message">Your Message:</label>
-                        <textarea rows="5" name="message" id="message"
-                            placeholder="What's on your mind?"
+                        <textarea rows="5" name="message" id="message" placeholder="What's on your mind?"
                             required=""></textarea>
 
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
@@ -110,6 +158,13 @@
                 </form>
             </section>
         </article>
-    </div>
+    </main>
+
+    <footer>
+        <span><a href="https://github.com/ToshNeox/toshneox.github.io/blob/master/LICENSE" title="GNU GPL v3.0">GNU GPL
+                v3.0</a></span>
+        <span><a href="easeofuse.html" title="Ease of Use and Accessibility">Ease of Use and Accessibility</a></span>
+    </footer>
 </body>
+
 </html>
