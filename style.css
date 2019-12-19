@@ -19,8 +19,12 @@ body {
 /* Responsive sizing */
 main, header, footer {
     width: 100%;
+    margin: 0 auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+main, footer {
     max-width: 1024px;
-    margin: 5vh auto;
 }
 
 main {
@@ -29,17 +33,26 @@ main {
 
 /* Header */
 header {
-    padding: 20px 20px 50px 20px;
+    background-image: url('/header_image.jpg');
+    background-size: cover;
+    background-position: center;
 }
-header h1 {
+header section {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+header section h1 {
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
     font-size: 4rem;
-    color: var(--primary-colour);
+    color: #fff;
     margin-bottom: 10px;
 }
-header h2 {
+header section h2 {
     font-size: 2rem;
+    color: #fff;
 }
 
 /* Article and section */
