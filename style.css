@@ -259,6 +259,8 @@ main article.project aside.image {
 footer {
     font-size: 0.8rem;
     color: #aaa;
+    padding-left: 3vh;
+    padding-right: 3vh;
 }
 footer span::after {
     display: inline;
