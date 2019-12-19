@@ -35,7 +35,7 @@ main {
 header {
     background-image: url('/header_image.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 50.4% center;
 }
 header section {
     max-width: 1024px;
