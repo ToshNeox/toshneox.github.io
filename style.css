@@ -44,6 +44,7 @@ header {
     background-image: url('/header_image.jpg');
     background-size: cover;
     background-position: 50.4% center;
+    background-color: #fcbe20;
 }
 header section {
     max-width: 1024px;
