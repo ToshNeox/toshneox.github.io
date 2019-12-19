@@ -26,6 +26,9 @@ main, header, footer {
 main, footer {
     max-width: 1024px;
 }
+main, header, footer, section, div, li, article {
+    box-sizing: border-box;
+}
 
 main {
     padding: 20px;
