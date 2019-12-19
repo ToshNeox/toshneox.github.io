@@ -1,6 +1,11 @@
 html {
     font-size: 22px;
 }
+@media all and (max-width: 380px) {
+    html {
+        font-size: 18px;
+    }
+}
 
 body {
     background-color: #f5f5f5;
@@ -56,6 +61,14 @@ header section h1 {
 header section h2 {
     font-size: 2rem;
     color: #fff;
+}
+@media all and (max-width: 380px) {
+    header section h1 {
+        font-size: 3rem;
+    }
+    header section h2 {
+        font-size: 1.6rem;
+    }
 }
 
 /* Article and section */
