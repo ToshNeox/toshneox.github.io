@@ -133,9 +133,11 @@ main article.project h1 {
 }
 main article.project aside.image {
     float: left;
-    width: 120px;
-    height: 120px;
-    padding: 0 10px 10px 0;
+    width: 122px;
+    height: 122px;
+    margin: 0 10px 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 /* Contact form */
