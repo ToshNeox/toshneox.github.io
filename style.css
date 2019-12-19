@@ -107,7 +107,7 @@ main article.project {
     padding: 10px 0 30px 0;
     clear: both;
 }
-main article.project:last-of-type {
+main article:last-of-type {
     padding-bottom: 0;
 }
 main article.project h1 {
