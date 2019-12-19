@@ -75,7 +75,7 @@ header section h2 {
 /* Article and section */
 main > article:not(:last-of-type) {
     /* Direct descendants only */
-    margin-bottom: 100px;
+    margin-bottom: 3rem;
 }
 main article h1 {
     font-size: 1.5rem;
