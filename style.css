@@ -262,7 +262,7 @@ footer {
     padding-left: 3vh;
     padding-right: 3vh;
 }
-footer span::after {
+footer span:not(:last-of-type)::after {
     display: inline;
     content: '-';
     padding: 0 5px;
