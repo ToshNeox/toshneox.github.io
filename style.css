@@ -91,6 +91,7 @@ main article section ul.iconList li {
     padding-top: 10px;
     font-size: 0.8rem;
     vertical-align: top;
+    min-width: 85px;
 }
 main article section ul.iconList li::before {
     display: block;
