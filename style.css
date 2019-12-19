@@ -115,11 +115,96 @@ main article section ul.iconList li::before {
     width: 60px;
     height: 60px;
     content: '';
-    background-image: url(https://place-hold.it/60x60);
+    background-image: url('images/technology_sprites.png');
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0 auto 10px auto;
 }
+/* Technology icon sprites */
+main article section ul.iconList li#technology-angular::before {
+	background-position: -139px -74px;
+}
+
+main article section ul.iconList li#technology-angularjs::before {
+	background-position: -69px -75px;
+}
+
+main article section ul.iconList li#technology-aws::before {
+	background-position: -80px -149px;
+}
+
+main article section ul.iconList li#technology-css3::before {
+	background-position: -234px -150px;
+}
+
+main article section ul.iconList li#technology-docker::before {
+	background-position: -155px -151px;
+}
+
+main article section ul.iconList li#technology-esxi::before {
+	background-position: -422px -76px;
+}
+
+main article section ul.iconList li#technology-gcp::before {
+	background-position: -493px -77px;
+}
+
+main article section ul.iconList li#technology-git::before {
+	background-position: -347px -73px;
+}
+
+main article section ul.iconList li#technology-graphql::before {
+	background-position: -5px -143px;
+}
+
+main article section ul.iconList li#technology-html5::before {
+	background-position: -277px -74px;
+}
+
+main article section ul.iconList li#technology-javascript::before {
+	background-position: -208px -73px;
+}
+
+main article section ul.iconList li#technology-jekyll::before {
+	background-position: 0 -73px;
+}
+
+main article section ul.iconList li#technology-linux::before {
+	background-position: -515px 0;
+}
+
+main article section ul.iconList li#technology-mqtt::before {
+	background-position: -444px 0;
+}
+
+main article section ul.iconList li#technology-mysql::before {
+	background-position: -380px 0;
+}
+
+main article section ul.iconList li#technology-nodejs:before {
+	background-position: -318px 0;
+}
+
+main article section ul.iconList li#technology-php::before {
+	background-position: -253px 0;
+}
+
+main article section ul.iconList li#technology-redis::before {
+	background-position: -188px 0;
+}
+
+main article section ul.iconList li#technology-typescript::before {
+	background-position: -125px 0;
+}
+
+main article section ul.iconList li#technology-virtualbox::before {
+	background-position: -64px 0;
+}
+
+main article section ul.iconList li#technology-vue::before {
+	background-position: 0 0;
+}
+
 main article.project {
     box-sizing: border-box;
     padding: 10px 0 30px 0;
