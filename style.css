@@ -77,6 +77,10 @@ main article h1 {
     font-size: 1.5rem;
     font-weight: 400;
 }
+main article h1 sub {
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
 main article section {
     margin-bottom: 25px;
 }
