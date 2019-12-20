@@ -17,10 +17,6 @@ body {
     --primary-colour: #bd5300;
 }
 
-.needsReview * {
-    color: #dcdcdc !important;
-}
-
 /* Responsive sizing */
 main, header, footer {
     width: 100%;
