@@ -216,7 +216,7 @@ main article.project aside.image {
     float: left;
     width: 122px;
     height: 122px;
-    margin: 0 10px 10px 0;
+    margin: 0 0.9rem 0.4rem 0;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
