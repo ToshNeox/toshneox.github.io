@@ -1,6 +1,7 @@
 # Parcel
 dist
 .cache
+.parcel-cache
 
 # npm
 node_modules
